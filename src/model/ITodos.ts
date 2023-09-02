@@ -1,4 +1,4 @@
-export interface ITodos{
+export interface ITodos {
     userId: number,
     id: number,
     title: string,

@@ -1,0 +1,33 @@
+.textFields,
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px; 
+    height: 40px; 
+    margin: 50px 20px 20px;
+}
+.textFields input {
+    display: flex;
+    padding: 15px; 
+    border-radius: 4px; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .textFields button{
+    height: 50px;
+  }
+
+  
+  
+  
+  .outer-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner-container {
+    max-width: 1200px; /* или другая ширина, которая вам подходит */
+    width: 100%;
+  }

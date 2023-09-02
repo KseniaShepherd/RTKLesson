@@ -5,12 +5,10 @@ const rootReducer = combineReducers({
     [todosApi.reducerPath]: todosApi.reducer
 })
 
-const setupStore = ( ) => {
+export const setupStore = ( ) => {
     return configureStore({
         reducer: rootReducer,
-        middleware: (getDefaultMiddleware) =>{
-            getDefaultMiddleware().concat(todosApi.middleware)
-        }
+        middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(todosApi.middleware)
     })
 }
 
