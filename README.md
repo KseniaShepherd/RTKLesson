@@ -22,10 +22,8 @@ To run this project locally, follow these steps:
    ```bash
    cd rtk
 3. Install the dependencies:
-   ```bash
   npm install
 4. Start the development server:
-    ```bash
     npm start
 5.  Open your browser and visit http://localhost:3000 to view the app. 
 
